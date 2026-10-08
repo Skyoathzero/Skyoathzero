@@ -4,14 +4,14 @@
 
 I keep an Obsidian vault to work through how models are built, how data behaves, and what makes systems run.
 
-<a href="#learning-map">
+<a href="#user-content-learning-map">
 <picture>
   <source media="(prefers-reduced-motion: no-preference)" srcset="assets/notebook-bot.svg">
   <img src="assets/notebook-bot-static.svg" alt="A little notebook robot: learning in progress — models, data and math, systems." width="960">
 </picture>
 </a>
 
-[Learning map](#learning-map) · [Website](https://outofgravity.xyz) · [Repositories](https://github.com/Skyoathzero?tab=repositories)
+[Learning map](#user-content-learning-map) · [Website](https://outofgravity.xyz) · [Repositories](https://github.com/Skyoathzero?tab=repositories)
 
 ## Learning map
 
@@ -60,4 +60,4 @@ output → probably another question
 
 </details>
 
-[Back to top ↑](#abyaz-nabeel-fazl-mahardhika)
+[Back to top ↑](#user-content-abyaz-nabeel-fazl-mahardhika)
