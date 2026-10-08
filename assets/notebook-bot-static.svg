@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="200" viewBox="0 0 960 200" role="img" aria-labelledby="title desc">
+<title id="title">A notebook robot, still learning</title>
+<desc id="desc">An original little robot reads a notebook beside the words Learning in progress. A static illustration with no animation. No scripts or external resources.</desc>
+<style>
+  .label { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; fill: #8b949e; font-size: 12px; letter-spacing: 2px; }
+  .title { font-family: system-ui, -apple-system, sans-serif; fill: #e6edf3; font-size: 30px; font-weight: 600; }
+  .line { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; fill: #aeb8c4; font-size: 14px; }
+  .eye { transform-box: fill-box; transform-origin: center; animation: none; }
+  .antenna { animation: none; }
+  @media (prefers-reduced-motion: reduce) { .eye, .antenna { animation: none; } }
+</style>
+<rect x="1" y="1" width="958" height="198" rx="18" fill="#0d1117" stroke="#30363d"/>
+<path d="M193 34 V166" stroke="#30363d"/>
+<g fill="none" stroke="#30363d" stroke-width="1.3">
+  <path d="M770 55L825 88L883 52L904 117L842 147L770 55Z"/>
+  <path d="M825 88L842 147M825 88L904 117"/>
+</g>
+<g fill="#7dd3fc"><circle cx="770" cy="55" r="3"/><circle cx="825" cy="88" r="4"/><circle cx="883" cy="52" r="3"/><circle cx="904" cy="117" r="3"/><circle cx="842" cy="147" r="3"/></g>
+<g stroke="#8b949e" stroke-width="2.5" stroke-linejoin="round">
+  <path d="M105 51 V40" fill="none"/><circle class="antenna" cx="105" cy="35" r="5" fill="#7dd3fc" stroke="#7dd3fc"/>
+  <rect x="66" y="53" width="78" height="58" rx="13" fill="#161b22"/>
+  <path d="M60 73V91M150 73V91" fill="none"/>
+  <rect class="eye" x="82" y="73" width="9" height="12" rx="4" fill="#7dd3fc" stroke="none"/>
+  <rect class="eye" x="119" y="73" width="9" height="12" rx="4" fill="#7dd3fc" stroke="none"/>
+  <path d="M96 96H114" stroke="#7dd3fc"/>
+  <path d="M83 112L72 141M127 112L138 141" fill="none"/>
+  <path d="M65 126Q85 119 105 131Q126 119 146 126V156Q126 149 105 162Q86 149 65 156Z" fill="#161b22" stroke="#7dd3fc"/>
+  <path d="M105 131V162M75 134L96 137M75 142L96 145M114 137L135 134M114 145L135 142" stroke="#7dd3fc" stroke-width="1.5"/>
+</g>
+<text x="226" y="52" class="label">AOZORA / NOTEBOOK</text>
+<text x="226" y="92" class="title">Learning in progress.</text>
+<text x="226" y="122" class="line">models · data &amp; math · systems</text>
+<text x="226" y="157" class="line" fill="#7dd3fc">one more question, one more connection.</text>
+</svg>

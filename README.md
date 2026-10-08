@@ -2,55 +2,61 @@
 
 **Artificial Intelligence student at BINUS University**
 
-Exploring AI engineering, machine learning, and reinforcement learning.
+I keep an Obsidian vault to work through how models are built, how data behaves, and what makes systems run.
 
-[Learning topics](#learning-topics) · [Website](https://outofgravity.xyz) · [Repositories](https://github.com/Skyoathzero?tab=repositories)
+<a href="#learning-map">
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="assets/notebook-bot.svg">
+  <img src="assets/notebook-bot-static.svg" alt="A little notebook robot: learning in progress — models, data and math, systems." width="960">
+</picture>
+</a>
 
-## Learning topics
+[Learning map](#learning-map) · [Website](https://outofgravity.xyz) · [Repositories](https://github.com/Skyoathzero?tab=repositories)
 
-Expand a topic for concepts to explore, a small practice prompt, and a reference.
+## Learning map
+
+From my Obsidian notes: things I've been working through, revisiting, and connecting.
+
+| Thread | In my notebook |
+| :--- | :--- |
+| 🧠 **Models** | PyTorch data pipelines · U-Net · attention · vision-language models |
+| 📐 **Data & math** | pandas · Bayesian inference · gradients · time-series decomposition |
+| ⚙️ **Systems & hardware** | vectorization · inference latency · Arduino timing, interrupts & debounce |
 
 <details>
-<summary><strong>AI orchestration</strong></summary>
+<summary><strong>🧠 Models — taking the pieces apart</strong></summary>
 
-Task decomposition, tool use, and clear handoffs between components.
+I've been tracing how data reaches a model: custom PyTorch datasets, preprocessing, batching, and data loaders. My U-Net notes work through downsampling, upsampling, skip connections, and the training loop.
 
-**Practice:** Sketch a workflow that gathers evidence, drafts an answer, and checks its claims. Define the input and output of each stage.
-
-[Explore agent handoffs](https://openai.github.io/openai-agents-python/handoffs/)
+Attention and vision-language models connect another set of pieces: queries, keys, values, masking, image embeddings, and how visual features meet a language model.
 
 </details>
 
 <details>
-<summary><strong>Context management</strong></summary>
+<summary><strong>📐 Data & math — connecting the ideas</strong></summary>
 
-Selecting the instructions, evidence, and working state a model needs for its next decision.
+My notes move between pandas indexing, cleaning, merging and aggregation, and the ideas underneath the data. I've been working through Bayesian belief updates, partial derivatives for neural networks, and separating time series into trend, seasonality, and residuals.
 
-**Practice:** Summarize a fictional debugging session into its goal, constraints, evidence, attempted fixes, and next check.
-
-[Read about context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
+I keep coming back to how a mathematical idea shows up in the code.
 
 </details>
 
 <details>
-<summary><strong>Robotics · ROS 2</strong></summary>
+<summary><strong>⚙️ Systems & hardware — thinking about what runs</strong></summary>
 
-Nodes, message streams, and the communication patterns that connect a robot's components.
+On the software side, my notes compare Python loops and vectorization, then look at the latency and hardware tradeoffs of inference.
 
-**Practice:** Sketch a camera, state estimator, and navigation component. Decide which interactions need a stream, a response, or feedback while a task runs.
-
-[Browse the official ROS 2 documentation](https://github.com/ros2/ros2_documentation)
+On the hardware side, I've been learning about Arduino timing, keeping interrupt routines short, and debouncing switch inputs. Different layers, the same curiosity about what happens underneath.
 
 </details>
 
 <details>
-<summary><strong>Computational physics</strong></summary>
+<summary>💬 A message from the notebook robot</summary>
 
-Numerical integration, time-step selection, and checking whether a simulation preserves the behavior of the system it models.
-
-**Practice:** Compare forward and symplectic Euler on a simple oscillator. Track how changing the time step affects its energy.
-
-[Explore numerical integration](https://gafferongames.com/post/integration_basics/)
+```text
+input  → one more question
+output → probably another question
+```
 
 </details>
 
